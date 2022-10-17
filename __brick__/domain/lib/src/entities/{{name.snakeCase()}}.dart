@@ -6,7 +6,7 @@ part 'country_code.freezed.dart';
 class {{name.pascalCase()}} with _${{name.pascalCase()}} {
   factory {{name.pascalCase()}}({
     required String placeholder,
-  }) = _CountryCode;
+  }) = _{{name.pascalCase()}};
 
   factory {{name.pascalCase()}}.empty() => {{name.pascalCase()}}(
         placeholder: '',
