@@ -6,7 +6,7 @@ part '../../../{{name.snakeCase()}}.g.dart';
 class {{name.pascalCase()}}Model with _${{name.pascalCase()}}Model {
   const factory {{name.pascalCase()}}Model({
     required String placeholder,
-  }) = _{{name.pascalCase()}};
+  }) = _{{name.pascalCase()}}Model;
 
   const {{name.pascalCase()}}Model._();
 
