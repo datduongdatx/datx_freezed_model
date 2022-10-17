@@ -1,5 +1,5 @@
 import 'package:core/core.dart';
-import 'package:data/src/models/{{name.pascalCase()}}_model.dart';
+import 'package:data/src/models/{{name.snakeCase()}}_model.dart';
 import 'package:domain/domain.dart';
 import 'package:injectable/injectable.dart';
 
